@@ -103,7 +103,7 @@ const Pokedex = () => {
                                             disabled={ pokemonDetails.id === 1 }
                                             className={ styles['button-navigation'] }
                                             onClick={ () => handleNavClick(pokemonDetails.id - 1) }>
-                                            <p className={ styles['button-navigation-left'] }><i className={ classnames(styles['arrow-navigation'], styles['arrow-left']) }></i></p>
+                                            <p><i className={ classnames(styles['arrow-navigation'], styles['arrow-left']) }></i></p>
                                         </button>
                                         <div className={styles.sprite}>
                                             <LazyImg
@@ -115,7 +115,7 @@ const Pokedex = () => {
                                             disabled={ pokemonDetails.id === LAST_POKEMON_ID }
                                             className={ styles['button-navigation'] }
                                             onClick={ () => handleNavClick(pokemonDetails.id + 1) }>
-                                            <p className={ styles['button-navigation-right'] }><i className={ classnames(styles['arrow-navigation'], styles['arrow-right']) }></i></p>
+                                            <p><i className={ classnames(styles['arrow-navigation'], styles['arrow-right']) }></i></p>
                                         </button>
                                     </div>
                                     <div className={ styles.details }>
