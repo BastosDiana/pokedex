@@ -1,0 +1,8 @@
+.lazy-img {
+    transition: opacity 150ms;
+    opacity: 1;
+}
+
+.loading {
+    opacity: 0;
+}
