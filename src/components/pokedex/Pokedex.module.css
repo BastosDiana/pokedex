@@ -129,6 +129,26 @@
     border: none;
     outline: none;
     cursor: pointer;
+    height: 15px;
+    margin: auto;
+}
+
+.button-navigation-right {
+    margin: 0;
+    transition: transform 200ms;
+}
+
+.button-navigation-right:hover {
+    transform: translateX(5px);
+}
+
+.button-navigation-left {
+    margin: 0;
+    transition: transform 200ms;
+}
+
+.button-navigation-left:hover {
+    transform: translateX(-5px);
 }
 
 button {

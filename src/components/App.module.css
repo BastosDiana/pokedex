@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
+    min-width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
